@@ -2,7 +2,10 @@
 1. Antd Pro V4の元で開発した。
 
 2. ローカルサーバ起動
+```js
+npm run dev
+```
 
-```npm run dev```
+ 3. 起動が完了したら、ブラウザを開いてアクセスします:
 
- 3. 启动完成后打开浏览器访问: [http://localhost:8000/#/xadmin](http://localhost:8000/#/xadmin)
+  [http://localhost:8000/#/xadmin](http://localhost:8000/#/xadmin)
