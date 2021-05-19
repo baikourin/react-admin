@@ -20,8 +20,8 @@ export default defineConfig({
     ],
     outputPath: `../static/tyadmin/`,
     // 输出静态文件 指定路径
-    publicPath: REACT_APP_ENV === 'dev' ? '/' : 'https://zappa-7gbd1jor6.s3.amazonaws.com/static/tyadmin/',
-    // publicPath: REACT_APP_ENV === 'dev' ? '/' : '/static/tyadmin/',
+    // publicPath: REACT_APP_ENV === 'dev' ? '/' : 'https://zappa-7gbd1jor6.s3.amazonaws.com/static/tyadmin/',
+    publicPath: REACT_APP_ENV === 'dev' ? '/' : '/static/tyadmin/',
     dva: {
         hmr: true,
     },
