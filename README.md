@@ -9,3 +9,4 @@ npm run dev
  3. 起動が完了したら、ブラウザを開いてアクセスします:
 
   [http://localhost:8000/#/xadmin](http://localhost:8000/#/xadmin)
+  
